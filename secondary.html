@@ -1,0 +1,286 @@
+<html>
+    <head>
+        <title>My Watchlist - Yahoo Fiance Portfolios</title>
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css" >
+        <link rel="stylesheet" href="https://bit.ly/pvdfonts">
+        
+    </head>
+    
+    <style>
+        .list{
+          margin-top:50px;
+          background-color:lightblue;
+        }
+        .listItem{
+          color:black;
+        }
+        .userpic{
+        border-radius:50px;
+        margin-left:20px;
+        width:40px;
+        align-items:center;
+        }
+        
+        .searchBar{
+            align-items:center;
+        }
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        td,th{
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even){
+            background-color: #dddddd;
+        }
+        
+        
+    </style>
+    <body>
+        <nav class="nav nav-fill bg-grey" style="background:#2d1152">
+            <a class="nav-item navlink" href="index.html" style="color:white">Home</a>
+            <a class="nav-item navlink" href="#" style="color:white">Mail</a>
+            <a class="nav-item navlink" href="#" style="color:white">Flickr</a>
+            <a class="nav-item navlink" href="#" style="color:white">News</a>
+            <a class="nav-item navlink" href="#" style="color:white">Sports</a>
+            <a class="nav-item navlink" href="#" style="color:white">Finance</a>
+            <a class="nav-item navlink" href="#" style="color:white">Entertainment</a>
+            <a class="nav-item navlink" href="#" style="color:white">LifeStyle</a>
+            <a class="nav-item navlink" href="#" style="color:white">Answers</a>
+            <a class="nav-item navlink" href="#" style="color:white">Groups</a>
+            <a class="nav-item navlink" href="#" style="color:white">More</a>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            
+            
+            <div style="background-image:url('https://s.yimg.com/rz/d/yahoo_finance_en-US_s_f_pw_351x40_finance_2x.png'); image-width:50%; 
+            width:200px;
+            height:80px; margin-right:0px"></div>    
+            <!--Logo to be edited, see: https://stackoverflow.com/questions/493296/css-display-an-image-resized-and-cropped -->
+            
+            <form class = "searchBar" action="/quote/__lookup" style="margin-left:30px">
+            <input type="text" placeholder="Search for news, symbols, or companies" style="width:500px">
+            <button type="submit" class="btn btn-primary" style="background-color: #3775dd ">Search</button>
+            </form>
+            
+            <img src="images/UserPic.JPG" class="userpic">
+            
+            
+        </nav>
+        
+        <div>
+            <br>
+            <h3>My Portfolios/ My Watchlist</h3>
+            <p>Curreny in USD</p>
+            <br>
+        </div>
+        
+        <table>
+            <tr>
+                <th>Symbol</th>
+                <th>Last Price</th>
+                <th>Change</th>
+                <th>% Chg</th>
+                <th>Currency</th>
+                <th>Market Time</th>
+                <th>Volume</th>
+                <th>Avg Vol(3m)</th>
+                <th>52 Week Low</th>
+                <th>52 Week High</th>
+                <th>Market Cap</th>
+            </tr>
+              <tr>
+                <td>BLK</td>
+                <td>533.01</td>
+                <td>7.7</td>
+                <td>1.47%</td>
+                <td>USD</td>
+                <td>4:02 PM EDT</td>
+                <td>667.75k</td>
+                <td>643.24k</td>
+                <td>375.52</td>
+                <td>594.52</td>
+                <td>86.24B</td>
+              </tr>
+              <tr>
+                <td>CHL</td>
+                <td>47.02</td>
+                <td>0.02</td>
+                <td>0.04%</td>
+                <td>USD</td>
+                <td>4:02 PM EDT</td>
+                <td>444.44k</td>
+                <td>992.57k</td>
+                <td>44.55</td>
+                <td>56.93</td>
+                <td>189.92B</td>
+              </tr>
+              <tr>
+                <td>TWTR</td>
+                <td>29</td>
+                <td>-0.39</td>
+                <td>-1.33%</td>
+                <td>USD</td>
+                <td>4:01 PM EDT</td>
+                <td>17.29M</td>
+                <td>33.84M</td>
+                <td>14.12</td>
+                <td>36.80</td>
+                <td>21.70B</td>
+              </tr>
+              <tr>
+                <td>AABA</td>
+                <td>70.54</td>
+                <td>-0.01</td>
+                <td>-0.01%</td>
+                <td>USD</td>
+                <td>4:00 PM EDT</td>
+                <td>3.96M</td>
+                <td>7.42M</td>
+                <td>46.93</td>
+                <td>80.56</td>
+                <td>61.61B</td>
+              </tr>
+              <tr>
+                <td>BTC-USD</td>
+                <td>7,793.04</td>
+                <td>815.91</td>
+                <td>11.69%</td>
+                <td>USD</td>
+                <td>11:23 PM BST</td>
+                <td>1.40B</td>
+                <td>1.32B</td>
+                <td>1191.14</td>
+                <td>19870.62</td>
+                <td>132.24B</td>
+              </tr>
+              <tr>
+                <td>^SP500G</td>
+                <td>1,570.66</td>
+                <td>14.35</td>
+                <td>0.92%</td>
+                <td>USD</td>
+                <td>4:48 PM EDT</td>
+                <td>0</td>
+                <td>-</td>
+                <td>1588.84</td>
+                <td>1607.70</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>DJI</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td> </td>
+                <td>-</td>
+                <td>-</td>
+                <td>375.63M</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>DBX</td>
+                <td>33.27</td>
+                <td>0.95</td>
+                <td>2.94%</td>
+                <td>USD</td>
+                <td>4:00 PM EDT</td>
+                <td>5.55M</td>
+                <td>9.57M</td>
+                <td>27.75</td>
+                <td>34.83</td>
+                <td>1.44B</td>
+              </tr>
+              <tr>
+                <td>MSFT</td>
+                <td>93.58</td>
+                <td>1.72</td>
+                <td>1.87%</td>
+                <td>USD</td>
+                <td>4:00 PM EDT</td>
+                <td>26.69M</td>
+                <td>35.26M</td>
+                <td>64.89</td>
+                <td>97.24</td>
+                <td>720.55B</td>
+              </tr>
+              <tr>
+                <td>NFLX</td>
+                <td>309.25</td>
+                <td>5.58</td>
+                <td>1.84%</td>
+                <td>USD</td>
+                <td>4:00 PM EDT</td>
+                <td>10.23M</td>
+                <td>11.88M</td>
+                <td>138.66</td>
+                <td>338.82</td>
+                <td>134.20B</td>
+              </tr>
+              <tr>
+                <td>GOOG</td>
+                <td>1,032.51</td>
+                <td>12.54</td>
+                <td>1.23%</td>
+                <td>USD</td>
+                <td>4:00 PM EDT</td>
+                <td>1.36M</td>
+                <td>2.02M</td>
+                <td>832.71</td>
+                <td>1186.89</td>
+                <td>718.78B</td>
+              </tr>
+              <tr>
+                <td>TSLA</td>
+                <td>294.08</td>
+                <td>-6.85</td>
+                <td>-2.28%</td>
+                <td>USD</td>
+                <td>4:00 PM EDT</td>
+                <td>7.60M</td>
+                <td>5.95M</td>
+                <td>275.54</td>
+                <td>389.61</td>
+                <td>49.68B</td>
+              </tr>
+              <tr>
+                <td>AAPL</td>
+                <td>174.14</td>
+                <td>1.7</td>
+                <td>0.99%</td>
+                <td>USD</td>
+                <td>4:00 PM EDT</td>
+                <td>22.87M</td>
+                <td>38.68M</td>
+                <td>140.45</td>
+                <td>183.50</td>
+                <td>883.59B</td>
+              </tr>
+        </table>			
+
+        <ul class="list" style="list-style-type:none">
+            <br>
+            <h5>
+               Portfolio News
+            </h5>
+            <li>
+                <a class="listItem" href="https://finance.yahoo.com/m/af598973-cf03-3fc7-be63-2d9d4071d95e/ss_the-espn-streaming-service-is.html">The ESPN streaming service is not new, Disney just wants you to pay for it</a>
+            </li>
+            <li >
+                <a  class="listItem" href="http://thecrux.com/dyncontent/multimillionaire-issues-warning-about-next-big-bankruptcy/?cid=MKT341373&eid=MKT342034">Expert Says: "Look who's going bankrupt next in America"</a>
+            </li>
+            <li class="listItem">
+                <a class="listItem" href="https://finance.yahoo.com/m/bfb40452-0878-37c0-9eb3-161c07436b6b/ss_s%26p-500-futures%3A-broadcom%2C.html">S&P 500 Futures: Broadcom, Qualcomm Rise Late As These 2 Tech Giants Set Up</a>
+            </li>
+        </ul>
+        
+        
+    </body>
+</html>
